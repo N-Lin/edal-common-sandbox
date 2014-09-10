@@ -42,6 +42,7 @@ public class BoundingBoxImplTest {
 
         CoordinateReferenceSystem chinaArea = GISUtils.getCrs("EPSG:2426");
         assertFalse(bbox.contains(new HorizontalPosition(500000, 4261964.001513, chinaArea)));
+        System.out.println("Done");
     }
 
 }
